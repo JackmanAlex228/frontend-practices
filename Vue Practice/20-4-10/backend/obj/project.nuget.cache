@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "bw3RHs6F0yYyqIC08I+OZmESweQNMFbR3KFe3p5QIF2DWH88r+uY/dGFxp0rE/Yb9iHdPDUxaVO7a9QWV2OWIA==",
+  "success": true,
+  "projectFilePath": "/Users/dexfenik/Documents/Git Repositories/Frontend Practices/Vue Practice/20-4-10/backend/backend.csproj",
+  "expectedPackageFiles": [
+    "/Users/dexfenik/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/5.0.8/microsoft.aspnetcore.spaservices.extensions.5.0.8.nupkg.sha512",
+    "/Users/dexfenik/.nuget/packages/microsoft.extensions.fileproviders.abstractions/5.0.0/microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "/Users/dexfenik/.nuget/packages/microsoft.extensions.fileproviders.physical/5.0.0/microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "/Users/dexfenik/.nuget/packages/microsoft.extensions.filesystemglobbing/5.0.0/microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "/Users/dexfenik/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
