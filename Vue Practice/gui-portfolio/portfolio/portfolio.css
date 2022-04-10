@@ -1,0 +1,23 @@
+#title {
+    margin: 5ps;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.images {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 900px;
+    overflow: auto;
+}
+
+ul.images li {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
