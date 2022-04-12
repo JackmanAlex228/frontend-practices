@@ -11,27 +11,35 @@
  *     finalizeLogin (call setToken, update token)
  *     logout (call setToken, set it to null)
  *     login
- * 
- * Client ID: f82505ee0d28697
- * Client secret: 60818aa7079fad7583b6372d8c06f419e0ac03f1
  */
+import api from '../../api/imgur';
 
 const state = {
-    token: null
+	token: null
 };
 
 const getters = {
-    isLoggedIn: state => !!state.token
+	isLoggedIn: state => !!state.token
 };
 
 const actions = {
-    logout: ({ commit }) => {
-        commit('setToken', null);
-    }
+	login: () => {
+		api.login();
+	},
+	logout: ({ commit }) => {
+		commit('setToken', null);
+	}
 };
 
 const mutations = {
-    setToken: (state, token) => {
-        state.token = token;
-    }
+	setToken: (state, token) => {
+		state.token = token;
+	}
+};
+
+export default {
+	state,
+	getters,
+	actions,
+	mutations
 };
