@@ -1,6 +1,7 @@
 <template>
   <div>
     <AppHeader></AppHeader>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -8,6 +9,7 @@
 
 // This is where the main app lives
 import AppHeader from './components/AppHeader';
+
 export default {
     name: 'App',
     components: {
