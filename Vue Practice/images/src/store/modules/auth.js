@@ -5,12 +5,12 @@
  *     null
  *   Getters:
  *     isLoggedIn (look at value of 'token' in state object)
- *   Mutations:
- *     setToken
  *   Actions:
+ *     login
  *     finalizeLogin (call setToken, update token)
  *     logout (call setToken, set it to null)
- *     login
+ *   Mutations:
+ *     setToken
  */
 import api from '../../api/imgur';
 import qs from 'qs'
